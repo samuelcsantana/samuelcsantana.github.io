@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Khand-Medium';
+    src: url('../font/Khand/Khand-Medium.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Khand-Medium', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .nome_titulo {
+    box-sizing: border-box;
+    color: 	#A9A9A9;
+    display: block;
+    font-size: 9em;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 700;
+    height: 70px;
+    letter-spacing: normal;
+    line-height: 70px;
+    max-width: 876px;
+    text-size-adjust: 100%;
+    opacity: 0.40;
+}
+
+.imagem_titulo {
+    width: 7.5rem;
+    height: 7.5rem;
+    opacity: 0.60;
+}
+
+.nome_imagem {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -30%);
+}
+
+.redes_sociais {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    bottom: 1.875rem;
+    left: 0;
+}
+
+.icone {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.redes_sociais > li {
+    list-style: none;
+    padding: 0 2.5rem;
+}
+
+.versao {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    right: 10px;
+}
